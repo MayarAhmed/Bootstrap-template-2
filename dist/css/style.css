@@ -1,0 +1,60 @@
+section {
+  background-color: #ff5147;
+  height: 200px;
+  padding-top: 25px; }
+  section h2 {
+    text-align: center;
+    color: #fff; }
+  section hr {
+    width: 15px; }
+  section article {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px; }
+    section article pre {
+      margin: 0px; }
+
+body, ul {
+  margin: 0px; }
+
+main {
+  width: 85%;
+  margin: 0 auto; }
+
+header {
+  background-image: url("../../dist/css/imgs/header.jpg");
+  background-size: cover;
+  color: #c7c4c3;
+  height: 350px; }
+  header nav {
+    display: flex;
+    justify-content: space-between; }
+    header nav ul {
+      margin-top: 10px;
+      display: flex;
+      list-style: none;
+      font-size: 25px; }
+      header nav ul li {
+        padding: 10px; }
+  header h1 {
+    vetical-align: middle;
+    text-align: center;
+    margin-bottom: 0px; }
+    header h1 pre {
+      margin: 0px; }
+  header hr {
+    width: 15px;
+    color: red; }
+  header article {
+    text-align: center;
+    margin-bottom: 15px; }
+    header article pre {
+      margin: 0px; }
+  header button {
+    background-color: #ff5147;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px;
+    margin: 0 auto;
+    display: block; }

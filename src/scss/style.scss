@@ -1,0 +1,60 @@
+$mainColor:#fff;
+$textColor:#f7f3f3;
+$mainDisplay:flex;
+$mainFontSize:15px;
+$DefaultMargin:0px;
+$defaultBorder:none;
+
+body,
+ul {
+    font-family: sans-serif;
+    margin: $DefaultMargin;
+}
+
+
+
+header {
+    background-image: url('../../dist/css/imgs/header.jpg');
+    background-size: 100% 100%;
+    color: $textColor;
+
+    nav {
+
+        display: $mainDisplay;
+        justify-content: space-between;
+
+        ul {
+            margin-top: 10px;
+            display: $mainDisplay;
+            list-style: none;
+            font-size: $mainFontSize;
+
+
+            li {
+
+                padding: 10px;
+            }
+        }
+    }
+    .parent {
+      top:30%;
+      left:25%;
+    }
+
+
+    article {
+        text-align: center;
+        margin-bottom: 15px;
+    
+    }
+
+    button {
+        background-color: #dc463d;
+        border: $defaultBorder;
+        border-radius: 10px;
+        color: $mainColor;
+        margin: 0 auto;
+        display: block;
+    }
+
+}
